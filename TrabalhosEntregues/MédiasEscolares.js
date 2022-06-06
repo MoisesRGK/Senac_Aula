@@ -1,4 +1,4 @@
-let soma = 0
+let somar = 0
 
 const N = parseInt(prompt("Quantidade de alunos: "));
 let notas = [];
@@ -8,9 +8,9 @@ for (let i = 0; i < N; i++) {
 
   function Media(notas, i, nNotas) {
     for (let b = 0; b < nNotas; b++) {
-      soma = (soma + notas[i][b]);
+      somar = (somar + notas[i][b]);
     };
-    let media = soma / nNotas;
+    let media = somar / nNotas;
     return media;
   };
 
